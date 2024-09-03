@@ -29,7 +29,7 @@ export namespace Api {
 
   export class Media extends MediaApi {}
 
-  export class Inquiry extends InquiryApi {}
+  export class Inquiry extends InquiryApi {} 
 
   export class Evaluation extends EvaluationApi {}
 }
