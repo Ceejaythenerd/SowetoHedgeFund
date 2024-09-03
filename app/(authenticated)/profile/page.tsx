@@ -13,7 +13,7 @@ import { useSnackbar } from 'notistack'
 import { useState } from 'react'
 import { UserForm } from './components/userForm'
 
-export default function ProfilePage() {
+export default function ProfilePage() { 
   const authentication = useAuthentication()
   const { enqueueSnackbar } = useSnackbar()
   const router = useRouter()
