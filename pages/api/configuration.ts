@@ -6,7 +6,7 @@ export type ConfigurationType = {
   GOOGLE_CLIENT_ID?: string
   TOOL_BASE_URL?: string
   MARBLISM_MICHELANGELO_ACTIVE?: boolean
-  MAPBOX_ACCESS_TOKEN?: string
+  MAPBOX_ACCESS_TOKEN?: string 
 }
 
 export default function handler(
